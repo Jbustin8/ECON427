@@ -19,7 +19,8 @@ library(purrr)
 library(ggplot2)
 
 # Save key in .Renviron for use across sessions (try to get your own API key here: https://account.ipums.org/api_keys)
-set_ipums_api_key("...", save = TRUE)
+set_ipums_api_key("59cba10d8a5da536fc06b59d2e76fa4768794cc0a6c68b7ff37268f4
+                ", save = TRUE)
 
 # Note: sample code are here https://cps.ipums.org/cps-action/samples/sample_ids
 ?define_extract_cps
